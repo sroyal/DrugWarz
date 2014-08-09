@@ -1,0 +1,9 @@
+c:\users\sroyalwin7\documents\visual studio 2012\Projects\DrugWarz\DrugWarz\bin\Debug\DrugWarz.exe.config
+c:\users\sroyalwin7\documents\visual studio 2012\Projects\DrugWarz\DrugWarz\bin\Debug\DrugWarz.exe
+c:\users\sroyalwin7\documents\visual studio 2012\Projects\DrugWarz\DrugWarz\bin\Debug\DrugWarz.pdb
+c:\users\sroyalwin7\documents\visual studio 2012\Projects\DrugWarz\DrugWarz\obj\Debug\DrugWarz.csprojResolveAssemblyReference.cache
+c:\users\sroyalwin7\documents\visual studio 2012\Projects\DrugWarz\DrugWarz\obj\Debug\DrugWarz.Form1.resources
+c:\users\sroyalwin7\documents\visual studio 2012\Projects\DrugWarz\DrugWarz\obj\Debug\DrugWarz.Properties.Resources.resources
+c:\users\sroyalwin7\documents\visual studio 2012\Projects\DrugWarz\DrugWarz\obj\Debug\DrugWarz.csproj.GenerateResource.Cache
+c:\users\sroyalwin7\documents\visual studio 2012\Projects\DrugWarz\DrugWarz\obj\Debug\DrugWarz.exe
+c:\users\sroyalwin7\documents\visual studio 2012\Projects\DrugWarz\DrugWarz\obj\Debug\DrugWarz.pdb
