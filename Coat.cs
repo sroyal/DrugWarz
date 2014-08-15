@@ -10,9 +10,10 @@ namespace DrugWarz
     {
         string defaultCoat = "Default Coat";
         int coatCount = 0;
-        List<Drug_Cocaine> coatPocketList = new List<Drug_Cocaine>();
+        public int cokeRate = 0;
+       // List<Drug_Cocaine> coatPocketList = new List<Drug_Cocaine>();
 
-        
+       // Drug_Cocaine[] coatPocketArray = new Drug_Cocaine[10];
 
       
     }

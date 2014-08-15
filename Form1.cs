@@ -28,16 +28,18 @@ namespace DrugWarz
   
         }
 
-       // Drug_Cocaine cocaine = new Drug_Cocaine();
-        List<Drug_Cocaine> coatPocket = new List<Drug_Cocaine>();
-
+        static Drug_Cocaine cocaine = new Drug_Cocaine();
+       // List<Drug_Cocaine> coatPocket = new List<Drug_Cocaine>();
+        Drug_Cocaine[] coatPocketArray = new Drug_Cocaine[10];
+        Coat userCoat = new Coat();
+        static int streetRate;
         public void button_Click(object sender, EventArgs e)
         {
 
-            Drug_Cocaine cocaine = new Drug_Cocaine();
-            int streetRate = cocaine.DrugRate(30);
+           // Drug_Cocaine cocaine = new Drug_Cocaine();
+            streetRate = cocaine.DrugRate(30);
             drugPriceListBox.Items.Add("The street Rate is $" + streetRate);
-            coatPocket.Add(cocaine);
+            //coatPocket.Add(cocaine);
            // textBox2.ToString() = coatPocket.
            
         }
@@ -55,9 +57,11 @@ namespace DrugWarz
             string temp = amountToBuyBox.ToString();
             int amountToBuy = Convert.ToInt32(temp);
 
-            for (int i = amountToBuy; i > 0; i--)
+            for (int i = 0; i > amountToBuy-1; i--)
             {
                 //coatPocket.Add(cocaine);
+                coatPocketArray[i] = new Drug_Cocaine();
+                coatPocketArray[i].cokeRate = streetRate;
             }
 
         }

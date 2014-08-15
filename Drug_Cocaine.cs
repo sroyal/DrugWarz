@@ -11,6 +11,7 @@ namespace DrugWarz
         public string Cocaine;
         public int MaxRate = 30;
         public int CoatSize = 10;
+        public int cokeRate = 0;
         
         public int DrugRate(int drugPrice)
         {
